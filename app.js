@@ -36,6 +36,7 @@ customersConfig.forEach(function(customerConfig){
 
   mailListener.on("error", function(err){
     logger.error("[%s] imap error: ", customerConfig.customerInfo.name, err);
+    this.start();
   });
 
   mailListener.on("mail", function(mail, seqno, attributes){
@@ -104,7 +105,7 @@ customersConfig.forEach(function(customerConfig){
       logger.info("[%s] Email address not in acceptedEmailAddress: %s", customerConfig.customerInfo.name, mail.from[0].address);
     }
 
-    if(false){
+    if(true){
       mailListener.imap.seq.setFlags(seqno, ['Seen', 'Deleted'], function(err) {
         if (err) {
           logger.error("[%s] Unable to mark email [%s] as Seen and flag for Deletion}, Error: %j", customerConfig.customerInfo.name, mail.messageId, err)

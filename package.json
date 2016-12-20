@@ -9,8 +9,6 @@
   "author": "lindehoff",
   "license": "ISC",
   "dependencies": {
-    "config": "^1.24.0",
-    "dateformat": "^2.0.0",
     "gm": "^1.23.0",
     "mail-listener2": "^0.2.0",
     "mkdirp": "^0.5.1",
