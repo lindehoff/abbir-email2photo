@@ -78,6 +78,6 @@ Temporary Items
 
 # End of https://www.gitignore.io/api/node,macos
 
-#Config
+images
 config/config.json
 config/customers.json
