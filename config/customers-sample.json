@@ -1,0 +1,23 @@
+[
+  {
+    "customerInfo": {
+      "name": "CustomerName"
+    },
+    "mailListener": {
+      "username": "username",
+      "password": "password"
+    },
+    "abbir": {
+      "imageSize": 1280,
+      "imagePath": "images/CustomerName/"
+    },
+    "acceptedUsers": [
+      {
+        "name": "userName",
+        "emailAddress": [
+          "user@email.com"
+        ]
+      }
+    ]
+  }
+]
