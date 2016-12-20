@@ -1,0 +1,20 @@
+{
+  "name": "email2photo",
+  "version": "1.0.0",
+  "description": "Imap client to listen for new emails and process them for photos",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lindehoff",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^1.24.0",
+    "dateformat": "^2.0.0",
+    "gm": "^1.23.0",
+    "mail-listener2": "^0.2.0",
+    "mkdirp": "^0.5.1",
+    "moment-timezone": "^0.5.10",
+    "winston": "^2.3.0"
+  }
+}
